@@ -157,7 +157,7 @@ section {
     position: relative;
     display: flex;
     justify-content: space-between;
-    width: 34.5rem;
+    width: 30.5rem;
     height: 5rem;
 }
 
@@ -171,7 +171,7 @@ section {
     background: var(--main-color);
     border: .2rem solid var(--main-color);
     border-radius: .8rem;
-    font-size: 1.8rem;
+    font-size: 1.0rem;
     font-weight: 600;
     letter-spacing: .1rem;
     color: var(--bg-color);
