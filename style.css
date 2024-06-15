@@ -98,8 +98,7 @@ section {
 }
 
 .home-content h1 {
- 
-   position: relative;
+    position: relative;
     display: inline-block;
     font-family: serif;
     font-size: 5.12rem; /* change here */
@@ -165,8 +164,6 @@ section {
    }
  
  }
-
-}
 
 .home-content .text-animate {
     position: relative;
