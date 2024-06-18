@@ -98,7 +98,8 @@ section {
 }
 
 .home-content h1 {
-    position: relative;
+ 
+   position: relative;
     display: inline-block;
     font-family: serif;
     font-size: 5.12rem; /* change here */
@@ -132,7 +133,7 @@ section {
  }
 
 .home-content h1 span {
-    position: relative;
+position: relative;
     display: inline-block;
     font-family: serif;
     font-size: 5.12rem; /* change here */
@@ -268,6 +269,35 @@ section {
 .btn-box .btn:hover::before {
     width: 100%;
 }
+.hr {
+  position: relative;
+    display: inline-block;
+    font-family: bold;
+    font-size: 1.6rem; /* change here */
+    color: transparent;
+   animation: effect 2s linear infinite;
+ 
+ }
+
+ @keyframes effect {
+ 
+   0% {
+ 
+     background: linear-gradient(#008000, #00FF00);
+ 
+     -webkit-background-clip: text;
+ 
+   }
+ 
+ 
+   100% {
+ 
+     background: linear-gradient(#3CE7D7, #000FFF);
+ 
+     -webkit-background-clip: text;
+ 
+   }
+ }
 
 .home-sci {
     position: absolute;
